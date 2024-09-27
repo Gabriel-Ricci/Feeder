@@ -14,8 +14,8 @@ public class Main
         Feeder j = new Feeder(2400);
         System.out.println(j.simulateManyDays(10, 4));
         Feeder p = new Feeder(250);
-        System.out.println(j.simulateManyDays(10, 5));
+        System.out.println(p.simulateManyDays(10, 5));
         Feeder l = new Feeder(0);
-        System.out.println(j.simulateManyDays(5, 10));
+        System.out.println(l.simulateManyDays(5, 10));
     }
 }
